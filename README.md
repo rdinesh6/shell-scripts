@@ -46,7 +46,7 @@ Clone the App Code SCM Eg: https://github.com/emerio-ohp/demo-task
      Repo_Path_Branch1=/path/to/your/App-code/repository
      Repo_Path_Branch2=/path/to/your/App-code/repository
      Repo_Path_Branch3=/path/to/your/App-code/repository
-     URL= GIT URL of your APP code Eg. https://rdinesh6:Lakshmi%403@github.com/emerio-ohp/demo-task.git
+     URL= GIT URL of your APP code Eg. https://rdinesh6:Emerio%403@github.com/emerio-ohp/demo-task.git
    
 ```
 4. Run Below Commands to start the service
