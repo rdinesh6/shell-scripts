@@ -57,4 +57,9 @@ Clone the App Code SCM Eg: https://github.com/emerio-ohp/demo-task
 #systemctl start local-repo-monitor.service
 ```
 
+CHeck the status of the service 
+```
+#systemctl enable ServiceName.service
+```
+
 
