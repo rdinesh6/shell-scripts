@@ -31,7 +31,7 @@ Clone the App Code SCM Eg: https://github.com/emerio-ohp/demo-task
 2. (*) git-repo-watcher  (*) git-repo-watcher-hooks (*) init.sh (*) watcher.sh  # 1st excution files -> MoVE these files to /usr/local/bin/ DIR
 
 3. Now Configure the Services 
-   3.1 Move the files (*) git-repo-watcher.service & (*) local-repo-monitor.service
+   3.1 Move the files (*) git-repo-watcher.service & (*) local-repo-monitor.service to path /etc/systemd/system (Permission chmod a+x file.service)
    3.2 In watcher.sh --> Edit the path in line -> sh /usr/local/bin/git-repo-watcher -d "/path/to/your/App-code/repository" -> Path            where you've cloned the repo App-code SCM (not the path of this script repo)
    3.3 In init.sh --> Edit the line -->  find /path/to/your/App-code/repository | entr sh /Path-where-you-cloned-the-script/cpFiles.sh
    3.4 Go to /usr/local/bin/git-repo-watcher-hooks file and edit the line 20.
