@@ -1,9 +1,0 @@
-[Unit]
-Description = This will Create a new file
-After = network.target
-
-[Service]
-ExecStart = /usr/local/bin/init.sh
-
-[Install]
-WantedBy = multi-user.target
