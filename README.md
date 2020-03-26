@@ -50,9 +50,11 @@ Clone the App Code SCM Eg: https://github.com/emerio-ohp/demo-task
    
 ```
 4. Run Below Commands to start the service
+```
 #systemctl enable git-repo-watcher.service
 #systemctl enable local-repo-monitor.service
 #systemctl start git-repo-watcher.service
 #systemctl start local-repo-monitor.service
+```
 
 
