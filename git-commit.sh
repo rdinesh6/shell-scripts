@@ -5,7 +5,7 @@ Repo_Path=/root/demo/demo-task
 Repo_Path_Branch1=/root/demo/branch1
 Repo_Path_Branch2=/root/demo/branch2
 Repo_Path_Branch3=/root/demo/branch3
-URL=https://rdinesh6:Lakshmi%403@github.com/emerio-ohp/demo-task.git
+URL=https://rdinesh6:Emerio%403@github.com/emerio-ohp/demo-task.git
 ##change to below Dir##
 cd $Repo_Path     ### Master repo dir ###
 
